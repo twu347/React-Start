@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//import component classes 
+import Header from "./Components/Header.js";
+import Footer from "./Components/Footer.js";
+import NavBar from "./Components/NavBar.js";
+
 // the component that will return HTML user interface, the component must start with capital letter
 function ParentComponent() {
     return(
@@ -11,44 +16,6 @@ function ParentComponent() {
             <NavBar/>
             <Footer/>
         </div>
-    )
-};
-
-// header component
-function Header(){
-    return(
-        <header>
-            <nav className="nav">
-                <div className="img-box"></div>
-                <ul className="nav-items">
-                    <li>Home Page</li>
-                    <li>Pricing</li>
-                    <li>About Us</li>
-                </ul>
-            </nav>
-        </header>
-    )
-};
-
-// footer component
-function Footer(){
-    return(
-        <footer>
-            2022 Skycore Software & Co. All Rights Reserved 
-        </footer>
-    )
-};
-
-// navigation bar component 
-function NavBar(){
-    return(
-        <ul>
-            <li>Home</li>
-            <li>Pricing</li>
-            <li>About Us</li>
-            <li>Current Projects</li>
-            <li>Our Mission</li>
-        </ul>
     )
 };
 
