@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 
 //import image from Images folder 
 import companyLogo from "../Images/logo.png";
@@ -18,5 +19,8 @@ function Header(){
         </header>
     )
 };
+
+// one class attribute is only able to render one object 
+ReactDOM.render(<h1>something</h1>, document.getElementById("root1"));
 
 export default Header;

@@ -8,6 +8,7 @@ import "./style.css";
 import Header from "./Components/Header.js";
 import Footer from "./Components/Footer.js";
 import NavBar from "./Components/NavBar.js";
+import HomePage from './Components/Homepage';
 
 // the component that will return HTML user interface, the component must start with capital letter
 function AppComponent() {
@@ -15,7 +16,7 @@ function AppComponent() {
         <div>
             <Header/>
             <h1>Skycore Software & Co.</h1>
-            <h3>Our Goal: Produce High Quality Custom Software</h3>
+            <HomePage/>
             <NavBar/>
             <Footer/>
         </div>
