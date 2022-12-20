@@ -1,11 +1,14 @@
 import React from 'react';
 
+//import image from Images folder 
+import companyLogo from "../Images/logo.png";
+
 // header component
 function Header(){
     return(
         <header>
             <nav className="nav">
-                <div className="img-box"></div>
+                <img className="img-box" src={companyLogo}/>
                 <ul className="nav-items">
                     <li>Home Page</li>
                     <li>Pricing</li>
