@@ -4,10 +4,15 @@
 
 body{
     margin: 0;
+    background-color: #282d35;
+    background-image: url("./images/react.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: 1350px;
+    background-position-y: 250px;
 }
 
 /* NavBar.js */
-
 .nav-box{
     display: flex;
     align-items: center;
@@ -30,4 +35,32 @@ body{
 .nav-box > img{
     height: 50px;
     margin-right: 7px;
+}
+
+/* Main.js */
+main{
+    padding: 57px 27px;
+    color: white;
+}
+
+.main-header{
+    margin: 0;
+    font-size: 39px;
+}
+
+.main-ul{
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main-ul > li{
+    font-size: 16px;
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+/* marker selector may not capable in some browser */
+.main-ul > li::marker{
+    font-size: 1.3rem;
+    color: #61dafb;
 }
