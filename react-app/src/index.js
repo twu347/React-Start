@@ -18,7 +18,14 @@ function ParentComponent() {
 function Header(){
     return(
         <header>
-            <nav>This is the header </nav>
+            <nav className="nav">
+                <div className="img-box"></div>
+                <ul className="nav-items">
+                    <li>Home Page</li>
+                    <li>Pricing</li>
+                    <li>About Us</li>
+                </ul>
+            </nav>
         </header>
     )
 };

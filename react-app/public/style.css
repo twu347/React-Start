@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-item: center;
+}
+
+.nav-items{
+    list-style: none;
+}
+
+.nav-items > li{
+    padding: 10px;
+}
+
+.img-box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
