@@ -7,7 +7,7 @@ import Footer from "./Components/Footer.js";
 import NavBar from "./Components/NavBar.js";
 
 // the component that will return HTML user interface, the component must start with capital letter
-function ParentComponent() {
+function AppComponent() {
     return(
         <div>
             <Header/>
@@ -20,4 +20,4 @@ function ParentComponent() {
 };
 
 // <ParentComponent/> is the way to define component in React, where it is similar to an HTML tag
-ReactDOM.render(<ParentComponent/>, document.getElementById("root"));
+ReactDOM.render(<AppComponent/>, document.getElementById("root"));
