@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* NavBar.js */
+
+.nav-box{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav-box > h3{
+    color: #61dafb;
+    margin: 0;
+    margin-right: auto;
+}
+
+.nav-box > h4{
+    color: #61dafb;
+    margin: 0;
+}
+
+.nav-box > img{
+    height: 50px;
+    margin-right: 7px;
+}
