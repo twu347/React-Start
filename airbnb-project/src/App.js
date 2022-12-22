@@ -1,12 +1,14 @@
 import React from 'react';
 
+// import components
 import NavBar from './components/NavBar';
+import Experience from './components/Experience';
 
 function App(){
     return(
         <div>
             <NavBar/>
-            <h1>Hello World</h1>
+            <Experience/>
         </div>
     )
 };

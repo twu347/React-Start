@@ -1,5 +1,6 @@
 import React from "react";
 
+// import statements
 import logo from "../images/logo.png";
 
 function NavBar(){
