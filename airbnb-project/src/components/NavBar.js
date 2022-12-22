@@ -1,10 +1,12 @@
 import React from "react";
 
+import logo from "../images/logo.png";
+
 function NavBar(){
     return(
-        <div>
-            This is navigation bar component
-        </div>
+        <nav>
+            <img className="logo-img" src={logo}></img>
+        </nav>
     )
 };
 

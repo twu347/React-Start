@@ -1,3 +1,21 @@
 *{
-    background-color: lightblue;
+    box-sizing: border-box;
 }
+
+body{
+    margin: 0;
+}
+
+/* NavBar.js */
+nav{
+    height: 70px;
+    display: flex;
+    padding: 10px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.1);
+}
+
+.logo-img{
+    max-width: 100px;
+}
+
+
