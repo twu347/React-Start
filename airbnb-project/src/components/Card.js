@@ -4,7 +4,7 @@ import React from "react";
 import cxk from "../images/cxk168235.png";
 import star from "../images/star.png";
 
-function Card(){
+function Card(props){
     return(
         <div className="card">
             <img className="cxk" src={cxk}/>
@@ -14,7 +14,7 @@ function Card(){
                 <span className="gray">(6) - </span>
                 <span className="gray">USA</span>
             </div>
-            <p>Life Lessons with iKun</p>
+            <p>{props.name}</p>
             <p><span className="bold">From $136 / person</span> </p>
         </div>
     )
